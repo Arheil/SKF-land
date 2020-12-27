@@ -305,7 +305,7 @@ body {
 .slider-control {
   width: 206px;
   height: 14px;
-  padding-top: 85px;
+  padding-top: 105px;
   cursor: pointer;
 }
 
@@ -332,7 +332,6 @@ body {
   height: 67px;
   margin: 0 auto;
   text-align: center;
-  margin-top: 90px;
 }
 
 .control-title {
@@ -370,7 +369,7 @@ body {
 
 .repair {
   width: 100vw;
-  height: 935px;
+  max-height: 935px;
 }
 
 .repair-video {
@@ -517,7 +516,7 @@ body {
 }
 
 .personalData-check:checked + .personalData-label::before {
-  content: url('../img/icons/check.png');
+  content: url('../img/icons/check.svg');
   width: 18px;
   height: 18px;
   border: 1px solid transparent;
@@ -538,7 +537,7 @@ body {
 
 .typesOfRepair-title {
   margin-bottom: 30px;
-  margin-top: 0;
+  margin-top: 76px;
 }
 
 .typesOfRepair-price {
